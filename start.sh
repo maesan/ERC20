@@ -1,0 +1,1 @@
+geth --networkid '10' --nodiscover --datadir ./eth_private_net --allow-insecure-unlock --unlock 'wallet address' --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --mine --minerthreads 1 --rpcapi eth,net,web3,personal  console 2>> ./geth.log
